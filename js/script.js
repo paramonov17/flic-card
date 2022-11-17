@@ -1,4 +1,3 @@
-
 const btnControl = document.querySelector('.flip-card__control-btn');
 
 btnControl.disabled = true;
@@ -17,10 +16,6 @@ flipItem.forEach(function(item) {
 
         if (activeFlip.length == flipItem.length) {
         btnControl.disabled = false;
-        
         }
-
     });
-
-    
 });
