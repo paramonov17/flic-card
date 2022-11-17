@@ -13,8 +13,6 @@ button {
     cursor: pointer;
   }
 
-
-
 .header{
     height: 64px;
     border-bottom: 1px solid #73BE43;
@@ -30,7 +28,6 @@ button {
     left: 0;
     top: 64px;
 }
-
 
 .header__container{
     padding: 23px 33px 24px 33px;
@@ -57,7 +54,6 @@ button {
     background-color: #E9262D;
 }
 
-
 .header__menu-burger::after,
 .header__menu-burger::before{
     content: "";
@@ -71,13 +67,9 @@ button {
     top: 16px;
 }
 
-
-
-
 .flip-card__container{
     padding: 30px;
 }
-
 
 .flip-card__title{
     font-weight: 700;
@@ -86,13 +78,11 @@ button {
     margin-bottom: 30px;
 }
 
-
 .flip-card__items{
     display: flex;
     justify-content: space-around;
     margin: 0 -10px;
 }
-
 
 .flip-card__item{
     width: 300px;
@@ -134,16 +124,13 @@ button {
     transform: rotateY(360deg);
 }
 
-
-
-
-
 .flip-card__front-title{
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: -10px;
 }
+
 .flip-card__front-text{
     font-weight: 400;
     font-size: 16px;
@@ -166,7 +153,6 @@ button {
     color: #69696C;
 }
 
-
 .flip-card__control{
     display: flex;
     justify-content: center;
@@ -187,7 +173,6 @@ button {
 .flip-card__control-btn:hover{
     opacity: 0.8;
 }
-
 
 .flip-card__control-btn:disabled{
     background: rgba(28, 26, 26, 0.15);
